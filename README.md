@@ -1,4 +1,4 @@
-# YOLO Object Detection
+# YOLO Object Detection for Hotwheels cars using custom Dataset
 
 Custom-trained YOLO models (v8 & v11) for object detection using the [Ultralytics](https://github.com/ultralytics/ultralytics) framework.
 
@@ -96,3 +96,4 @@ Both models were trained and evaluated. See the training output directories (`yo
 - [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
 - [Label Studio](https://labelstud.io/) — Annotation
 - Python 3.8+
+- tutorial referred to -(https://youtu.be/r0RspiLG260?si=FbCmOFXcuKIiC_67)
