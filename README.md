@@ -20,6 +20,11 @@ yolo-push/
 │   ├── results.png       # Training metrics
 │   ├── confusion_matrix.png
 │   └── ...               # Curves & batch samples
+├── data/                 # Training dataset
+│   ├── images/           # 199 annotated images
+│   ├── labels/           # YOLO-format annotations
+│   ├── classes.txt       # Class names
+│   └── notes.json        # Dataset metadata
 ├── sample.jpeg           # Sample input image
 ├── detect.py             # Inference script
 ├── requirements.txt
@@ -60,6 +65,23 @@ Webcam:
 python detect.py --source 0
 ```
 
+## Dataset
+
+Custom dataset of **199 images** across **10 car classes**, manually annotated using [Label Studio](https://labelstud.io/):
+
+| # | Class |
+|---|-------|
+| 0 | Aston Martin Valkyrie |
+| 1 | Audi Quattro |
+| 2 | Camaro |
+| 3 | Honda Civic |
+| 4 | Hyundai I20 WRC |
+| 5 | Mercedes-Benz 560 SEC AMG |
+| 6 | Mitsubishi Pajero Evolution |
+| 7 | Porsche Carrera |
+| 8 | Tesla Model S Plaid |
+| 9 | Toyota GR Supra |
+
 ## Training Results
 
 Both models were trained and evaluated. See the training output directories (`yolo_v8/`, `yolo_v11/`) for:
@@ -72,4 +94,5 @@ Both models were trained and evaluated. See the training output directories (`yo
 ## Built With
 
 - [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
+- [Label Studio](https://labelstud.io/) — Annotation
 - Python 3.8+

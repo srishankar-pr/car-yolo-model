@@ -1,0 +1,10 @@
+Aston_Martin_Valkyrie
+Audi_Quattro
+Camaro
+Honda_Civic
+Hyundai_I20_WRC
+Mercedes_Benz_560_SEC_AMG
+Mitsubishi_Pajero_Evolution
+Porsche_Carrera
+Tesla_Model_S_Plaid
+Toyota_GR_Supra

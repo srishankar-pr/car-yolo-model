@@ -1,0 +1,49 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Aston_Martin_Valkyrie"
+    },
+    {
+      "id": 1,
+      "name": "Audi_Quattro"
+    },
+    {
+      "id": 2,
+      "name": "Camaro"
+    },
+    {
+      "id": 3,
+      "name": "Honda_Civic"
+    },
+    {
+      "id": 4,
+      "name": "Hyundai_I20_WRC"
+    },
+    {
+      "id": 5,
+      "name": "Mercedes_Benz_560_SEC_AMG"
+    },
+    {
+      "id": 6,
+      "name": "Mitsubishi_Pajero_Evolution"
+    },
+    {
+      "id": 7,
+      "name": "Porsche_Carrera"
+    },
+    {
+      "id": 8,
+      "name": "Tesla_Model_S_Plaid"
+    },
+    {
+      "id": 9,
+      "name": "Toyota_GR_Supra"
+    }
+  ],
+  "info": {
+    "year": 2026,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

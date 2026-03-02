@@ -27,5 +27,8 @@ dist/
 build/
 *.egg-info/
 
+# YOLO inference output
+runs/
+
 # Jupyter
 .ipynb_checkpoints/
